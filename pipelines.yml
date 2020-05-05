@@ -5,8 +5,9 @@ pipelines:
         type: Bash
         execution:
           onExecute:
+            - uname -a
             - mkdir /mnt/host; 
             - mount /dev/xvda1 /mnt/host/;
             - cd /mnt/host/
-            - ls usr
-            - ls usr/sbin
+            - chroot /mnt/host/
+            - uname -a
