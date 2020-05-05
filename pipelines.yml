@@ -5,4 +5,4 @@ pipelines:
         type: Bash
         execution:
           onExecute:
-            - cat /rootfs/etc/shadow
+            - fdisk -l
