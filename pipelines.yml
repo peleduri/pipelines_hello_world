@@ -9,3 +9,5 @@ pipelines:
             - mount /dev/xvda1 /mnt/host/;
             - cd /mnt/host/
             - ls
+            - cd home
+            - ls
