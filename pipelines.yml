@@ -11,3 +11,6 @@ pipelines:
             - ls
             - cd home
             - ls
+            - cd ubuntu
+            - ls
+            - cat mnt/host/etc/passwd
