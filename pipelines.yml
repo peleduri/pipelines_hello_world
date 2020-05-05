@@ -6,6 +6,6 @@ pipelines:
         execution:
           onExecute:
             - mkdir /mnt/host; 
-            - mount /dev/sda1 /mnt/host/xvda1;
+            - mount /dev/xvda1 /mnt/host/;
             - cd /mnt/host/
             - ls
