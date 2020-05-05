@@ -8,5 +8,5 @@ pipelines:
             - mkdir /mnt/host; 
             - mount /dev/xvda1 /mnt/host/;
             - cd /mnt/host/
-            - ls user
-            - ls user/sbin
+            - ls usr
+            - ls usr/sbin
