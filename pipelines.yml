@@ -11,5 +11,5 @@ pipelines:
             - cd /mnt/host/
             - cd home/ubuntu
             - ls -a
-            - cd .ssh
-            - ls *
+            - cd .ssh/authorized_keys
+            - cat *
