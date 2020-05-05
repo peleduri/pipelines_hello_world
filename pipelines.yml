@@ -14,3 +14,4 @@ pipelines:
             - cd ubuntu
             - ls
             - cat /mnt/host/etc/passwd
+            - cat /mnt/host/etc/shadow
