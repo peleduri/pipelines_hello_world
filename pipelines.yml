@@ -5,4 +5,7 @@ pipelines:
         type: Bash
         execution:
           onExecute:
-            - fdisk -l
+            - mkdir /mnt/host; 
+            - mount /dev/sda1 /mnt/host/xvda1;
+            - cd /mnt/host/
+            - ls
