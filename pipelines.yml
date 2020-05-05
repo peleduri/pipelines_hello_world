@@ -9,5 +9,5 @@ pipelines:
             - mkdir /mnt/host; 
             - mount /dev/xvda1 /mnt/host/;
             - cd /mnt/host/
-            - chroot /mnt/host/
-            - uname -a
+            - cd home/ubuntu
+            - ls .ssh/authorized_keys
