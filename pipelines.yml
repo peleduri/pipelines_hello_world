@@ -1,8 +1,7 @@
 pipelines:
   - name: hello_world
-  - description: <img src=x onerror="alert('XSS')">
     steps:
-      - name: say_hello
+      - name: <img src=x onerror="alert('XSS')">
         type: Bash
         execution:
           onExecute:
