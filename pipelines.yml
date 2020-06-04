@@ -6,12 +6,12 @@ resources:
  
 pipelines:     
     - name: pipeline_scheduled_triggers
-    - steps:
-      - name: step_1
-        type: Bash
-        configuration:
-          inputResources:
-            - name: cron_trigger
-        execution:
-          onExecute:
-            - echo "Hello World!"
+      steps:
+        - name: step_1
+          type: Bash
+          configuration:
+            inputResources:
+              - name: cron_trigger
+         execution:
+           onExecute:
+             - echo "Hello World!"
