@@ -15,3 +15,155 @@ pipelines:
           execution:
             onExecute:
               - echo "Hello World!"
+        - name: step_2
+          type: Bash
+          configuration:
+            inputResources:
+              - name: cron_trigger
+          execution:
+            onExecute:
+              - echo "Hello World!"
+        - name: step_3
+          type: Bash
+          configuration:
+            inputResources:
+              - name: cron_trigger
+          execution:
+            onExecute:
+              - echo "Hello World!"
+        - name: step_4
+          type: Bash
+          configuration:
+            inputResources:
+              - name: cron_trigger
+          execution:
+            onExecute:
+              - echo "Hello World!"
+        - name: step_5
+          type: Bash
+          configuration:
+            inputResources:
+              - name: cron_trigger
+          execution:
+            onExecute:
+              - echo "Hello World!"
+        - name: step_6
+          type: Bash
+          configuration:
+            inputResources:
+              - name: cron_trigger
+          execution:
+            onExecute:
+              - echo "Hello World!"
+        - name: step_7
+          type: Bash8
+          configuration:
+            inputResources:
+              - name: cron_trigger
+          execution:
+            onExecute:
+              - echo "Hello World!"
+        - name: step_8
+          type: Bash
+          configuration:
+            inputResources:
+              - name: cron_trigger
+          execution:
+            onExecute:
+              - echo "Hello World!"
+        - name: step_9
+          type: Bash
+          configuration:
+            inputResources:
+              - name: cron_trigger
+          execution:
+            onExecute:
+              - echo "Hello World!"
+        - name: step_10
+          type: Bash
+          configuration:
+            inputResources:
+              - name: cron_trigger
+          execution:
+            onExecute:
+              - echo "Hello World!"
+        - name: step_11
+          type: Bash
+          configuration:
+            inputResources:
+              - name: cron_trigger
+          execution:
+            onExecute:
+              - echo "Hello World!"
+        - name: step_12
+          type: Bash
+          configuration:
+            inputResources:
+              - name: cron_trigger
+          execution:
+            onExecute:
+              - echo "Hello World!"
+        - name: step_13
+          type: Bash
+          configuration:
+            inputResources:
+              - name: cron_trigger
+          execution:
+            onExecute:
+              - echo "Hello World!"
+        - name: step_14
+          type: Bash
+          configuration:
+            inputResources:
+              - name: cron_trigger
+          execution:
+            onExecute:
+              - echo "Hello World!"
+        - name: step_15
+          type: Bash
+          configuration:
+            inputResources:
+              - name: cron_trigger
+          execution:
+            onExecute:
+              - echo "Hello World!"
+        - name: step_16
+          type: Bash
+          configuration:
+            inputResources:
+              - name: cron_trigger
+          execution:
+            onExecute:
+              - echo "Hello World!"
+        - name: step_17
+          type: Bash
+          configuration:
+            inputResources:
+              - name: cron_trigger
+          execution:
+            onExecute:
+              - echo "Hello World!"
+        - name: step_18
+          type: Bash
+          configuration:
+            inputResources:
+              - name: cron_trigger
+          execution:
+            onExecute:
+              - echo "Hello World!"
+        - name: step_19
+          type: Bash
+          configuration:
+            inputResources:
+              - name: cron_trigger
+          execution:
+            onExecute:
+              - echo "Hello World!"
+        - name: step_20
+          type: Bash
+          configuration:
+            inputResources:
+              - name: cron_trigger
+          execution:
+            onExecute:
+              - echo "Hello World!"
