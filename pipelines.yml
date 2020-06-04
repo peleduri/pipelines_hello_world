@@ -56,7 +56,7 @@ pipelines:
             onExecute:
               - echo "Hello World!"
         - name: step_7
-          type: Bash8
+          type: Bash
           configuration:
             inputResources:
               - name: cron_trigger
