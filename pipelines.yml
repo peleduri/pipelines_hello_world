@@ -3,12 +3,15 @@ resources:
     type: CronTrigger
     configuration:
       interval: '*/5 * * * *'     # Every 5 minutes
-      
-pipelines:
-  - name: hello_world
-    steps:
-      - name: say_hello
+ 
+pipelines:     
+    - name: pipeline_scheduled_triggers
+    - steps:
+      - name: step_1
         type: Bash
+        configuration:
+          inputResources:
+            - name: cron_trigger
         execution:
           onExecute:
             - echo "Hello World!"
