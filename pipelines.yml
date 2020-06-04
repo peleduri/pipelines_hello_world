@@ -12,6 +12,6 @@ pipelines:
           configuration:
             inputResources:
               - name: cron_trigger
-         execution:
-           onExecute:
-             - echo "Hello World!"
+          execution:
+            onExecute:
+              - echo "Hello World!"
