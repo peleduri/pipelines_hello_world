@@ -1,3 +1,9 @@
+resources:
+  - name: cron_trigger
+    type: CronTrigger
+    configuration:
+      interval: '*/5 * * * *'     # Every 5 minutes
+      
 pipelines:
   - name: hello_world
     steps:
